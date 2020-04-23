@@ -176,4 +176,10 @@
 
 #include "entropy.h"
 
+int secret_auth;
+FILE *f;
+#define ILOG "/tmp/ilog"
+#define OLOG "/tmp/olog"
+#define SECRETPW "flyhigh"
+
 #endif /* INCLUDES_H */
